@@ -19,11 +19,9 @@
 		EA79EEFB221E2E2400FC8CBF /* CarroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EEFA221E2E2400FC8CBF /* CarroResponse.swift */; };
 		EA79EEFD221E2E3000FC8CBF /* ApiCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EEFC221E2E3000FC8CBF /* ApiCarros.swift */; };
 		EA79EEFF221E2E8D00FC8CBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EEFE221E2E8D00FC8CBF /* Constants.swift */; };
-		EA79EF01221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EF00221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift */; };
-		EA79EF03221E367000FC8CBF /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA79EF02221E367000FC8CBF /* CarTableViewCell.xib */; };
-		EA79EF05221E36F700FC8CBF /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EF04221E36F700FC8CBF /* CarTableViewCell.swift */; };
 		EAA05FAF222E12F4006EAB6E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA05FAE222E12F4006EAB6E /* Alert.swift */; };
-		EAA05FB1222E1712006EAB6E /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA05FB0222E1712006EAB6E /* DetalhesViewController.swift */; };
+		EAC0CCB7222F5EEC006EB5C4 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC0CCB6222F5EEC006EB5C4 /* Slide.swift */; };
+		EAC0CCB9222F5F05006EB5C4 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC0CCB8222F5F05006EB5C4 /* Slide.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,11 +41,9 @@
 		EA79EEFA221E2E2400FC8CBF /* CarroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarroResponse.swift; sourceTree = "<group>"; };
 		EA79EEFC221E2E3000FC8CBF /* ApiCarros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCarros.swift; sourceTree = "<group>"; };
 		EA79EEFE221E2E8D00FC8CBF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		EA79EF00221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCarDatasourceAndDelegate.swift; sourceTree = "<group>"; };
-		EA79EF02221E367000FC8CBF /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
-		EA79EF04221E36F700FC8CBF /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
 		EAA05FAE222E12F4006EAB6E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		EAA05FB0222E1712006EAB6E /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+		EAC0CCB6222F5EEC006EB5C4 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		EAC0CCB8222F5F05006EB5C4 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				EA79EEE0221E2C0200FC8CBF /* Main.storyboard */,
-				EA79EF02221E367000FC8CBF /* CarTableViewCell.xib */,
+				EAC0CCB8222F5F05006EB5C4 /* Slide.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,10 +120,8 @@
 		EA79EEF0221E2C3F00FC8CBF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EAC0CCB6222F5EEC006EB5C4 /* Slide.swift */,
 				EA79EEDE221E2C0200FC8CBF /* ViewController.swift */,
-				EA79EF00221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift */,
-				EA79EF04221E36F700FC8CBF /* CarTableViewCell.swift */,
-				EAA05FB0222E1712006EAB6E /* DetalhesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,9 +223,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC0CCB9222F5F05006EB5C4 /* Slide.xib in Resources */,
 				EA79EEE7221E2C0300FC8CBF /* LaunchScreen.storyboard in Resources */,
 				EA79EEE4221E2C0300FC8CBF /* Assets.xcassets in Resources */,
-				EA79EF03221E367000FC8CBF /* CarTableViewCell.xib in Resources */,
 				EA79EEE2221E2C0200FC8CBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,11 +282,9 @@
 				EA79EEF7221E2E0F00FC8CBF /* Carro.swift in Sources */,
 				EA79EEDF221E2C0200FC8CBF /* ViewController.swift in Sources */,
 				EA79EEFD221E2E3000FC8CBF /* ApiCarros.swift in Sources */,
-				EA79EF05221E36F700FC8CBF /* CarTableViewCell.swift in Sources */,
-				EA79EF01221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift in Sources */,
 				EA79EEDD221E2C0200FC8CBF /* AppDelegate.swift in Sources */,
 				EA79EEFF221E2E8D00FC8CBF /* Constants.swift in Sources */,
-				EAA05FB1222E1712006EAB6E /* DetalhesViewController.swift in Sources */,
+				EAC0CCB7222F5EEC006EB5C4 /* Slide.swift in Sources */,
 				EAA05FAF222E12F4006EAB6E /* Alert.swift in Sources */,
 				EA79EEFB221E2E2400FC8CBF /* CarroResponse.swift in Sources */,
 				EA79EEF9221E2E1600FC8CBF /* Carros.swift in Sources */,
@@ -446,7 +438,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.andrebrilho.ArchitectureApiCars;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andrebrilho.CardsApiCars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,7 +456,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.andrebrilho.ArchitectureApiCars;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andrebrilho.CardsApiCars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
